@@ -1,4 +1,4 @@
-/* The desktop's theme arrives as CSS variables (--pithyx-*); the app looks like the desktop without its own colours. */
+/* The desktop's theme arrives as CSS variables (--pithyx-*); the app looks like the desktop without colors of its own. */
 :root {
   color-scheme: light dark;
   font-family: var(--pithyx-font-ui, system-ui, sans-serif);

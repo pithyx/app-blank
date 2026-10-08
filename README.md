@@ -5,6 +5,8 @@ It greets the signed-in user in their language. Use it as the start of your own 
 
 ## Start
 
+You need Node.js 24 or newer.
+
 ```sh
 npm install
 npm run dev     # the app in the mock desktop of pithyx dev, with hot reload
