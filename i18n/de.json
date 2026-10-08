@@ -1,0 +1,6 @@
+{
+  "title": "Leer",
+  "greeting": "Hallo, {name}!",
+  "hint": "Bearbeite src/main.ts und speichere: Das Fenster lädt mit deiner Änderung neu.",
+  "noDesktop": "Diese Seite läuft im Pithyx-Desktop. Starte sie mit npm run dev."
+}

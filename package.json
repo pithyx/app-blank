@@ -1,0 +1,27 @@
+{
+  "name": "app-blank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Pithyx app in plain TypeScript with Vite, without a backend: the smallest start for your own app.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "npm run build && pithyx validate && vitest run",
+    "pack": "npm run build && pithyx pack"
+  },
+  "dependencies": {
+    "@pithyx/sdk": "1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@pithyx/cli": "1.0.0-rc.3",
+    "@types/node": "^24.13.6",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Blank",
+  "greeting": "Hello, {name}!",
+  "hint": "Edit src/main.ts and save: the window reloads with your change.",
+  "noDesktop": "This page runs inside the Pithyx desktop. Start it with npm run dev."
+}

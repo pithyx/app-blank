@@ -1,0 +1,25 @@
+/* The desktop's theme arrives as CSS variables (--pithyx-*); the app looks like the desktop without its own colours. */
+:root {
+  color-scheme: light dark;
+  font-family: var(--pithyx-font-ui, system-ui, sans-serif);
+  color: var(--pithyx-color-text, CanvasText);
+  background: var(--pithyx-color-background, Canvas);
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 24px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 1.4rem;
+}
+
+p {
+  margin: 0;
+  color: var(--pithyx-color-text-muted, GrayText);
+}
