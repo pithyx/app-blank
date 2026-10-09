@@ -14,7 +14,7 @@ npm test        # build, pithyx validate and the unit tests
 npm run pack    # writes <id>-<version>.pithyxapp
 ```
 
-Install the `.pithyxapp` on your box in the Store with "Install from file".
+Install the `.pithyxapp` on your box in the Store (gear, Install from file).
 
 ## Make it yours
 
@@ -30,6 +30,18 @@ Install the `.pithyxapp` on your box in the Store with "Install from file".
 - `index.html`, `src/`: the frontend; `npm run build` writes it to `dist/`.
 - `i18n/`: the app's texts per language.
 - `.github/workflows/ci.yml`: tests and packs on every push, and attaches the package to a GitHub release.
+
+## Bring it to a box
+
+There are two ways:
+
+- **A catalog**, for everybody else's boxes: open a pull request that adds the app's source as `apps/<id>/` to a
+  catalog repository, for example `pithyx/apps-community` (see its CONTRIBUTING.md), with `pithyx` (the Pithyx
+  versions it runs on) and `license` in `pithyx.json` and your GitHub login in `maintainers.json`. After the review, the
+  catalog's CI builds the app from the merged commit and publishes it; boxes install it from the Store and get its
+  updates. You never publish a package or an image yourself.
+- **A sideload**, for your own box and for testing: `npm run pack` writes the `.pithyxapp`; install it in the Store
+  (gear, Install from file). A sideload is marked unverified and gets no updates unless a catalog has the same id.
 
 ## License
 
