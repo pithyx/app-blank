@@ -3,6 +3,8 @@
 The smallest [Pithyx](https://github.com/pithyx/pithyx) app: plain TypeScript with Vite and `@pithyx/sdk`, no backend.
 It greets the signed-in user in their language. Use it as the start of your own app ("Use this template" on GitHub).
 
+Part of Pithyx by Schecher1 (https://github.com/Schecher1).
+
 ## Start
 
 You need Node.js 24 or newer.
@@ -29,7 +31,7 @@ Install the `.pithyxapp` on your box in the Store (gear, Install from file).
 - `icon.svg`: the app's icon.
 - `index.html`, `src/`: the frontend; `npm run build` writes it to `dist/`.
 - `i18n/`: the app's texts per language.
-- `.github/workflows/ci.yml`: tests and packs on every push, and attaches the package to a GitHub release.
+- `.github/workflows/ci.yaml`: tests and packs on every push, and attaches the package to a GitHub release.
 
 ## Bring it to a box
 
