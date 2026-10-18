@@ -3,19 +3,30 @@
   "manifestVersion": 1,
   "id": "com.example.blank",
   "version": "1.0.0",
-  "name": { "en": "Blank", "de": "Leer" },
+  "name": {
+    "en": "Blank",
+    "de": "Leer"
+  },
   "description": {
     "en": "The smallest Pithyx app: a window that greets the signed-in user.",
     "de": "Die kleinste Pithyx-App: ein Fenster, das den angemeldeten Nutzer begrüßt."
   },
-  "author": { "name": "Your name" },
+  "author": {
+    "name": "Your name"
+  },
   "license": "MIT",
   "entry": "frontend/index.html",
-  "sdk": "^1.0.0-rc.3",
+  "sdk": "^1.0.0-rc.9",
   "permissions": [],
   "window": {
     "instances": "single",
-    "defaultSize": { "width": 480, "height": 360 },
-    "minSize": { "width": 320, "height": 240 }
+    "defaultSize": {
+      "width": 480,
+      "height": 360
+    },
+    "minSize": {
+      "width": 320,
+      "height": 240
+    }
   }
 }
