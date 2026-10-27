@@ -22,6 +22,9 @@
     "arm64"
   ],
   "source": "https://github.com/pithyx/app-blank",
+  "privacy": {
+    "sends": "none"
+  },
   "permissions": {},
   "window": {
     "instances": "single",
