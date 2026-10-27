@@ -27,7 +27,7 @@ Install the `.pithyxapp` on your box in the Store (gear, Install from file).
 
 ## Layout
 
-- `pithyx.json`: the manifest, checked against `@pithyx/sdk/schema/manifest.v1.schema.json`.
+- `pithyx.json`: the manifest, checked against `@pithyx/sdk/schema/manifest.v2.schema.json`.
 - `icon.svg`: the app's icon.
 - `index.html`, `src/`: the frontend; `npm run build` writes it to `dist/`.
 - `i18n/`: the app's texts per language.
