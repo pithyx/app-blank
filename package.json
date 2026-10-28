@@ -12,10 +12,10 @@
     "pack": "npm run build && pithyx pack"
   },
   "dependencies": {
-    "@pithyx/sdk": "1.0.0-rc.9"
+    "@pithyx/sdk": "2.0.0"
   },
   "devDependencies": {
-    "@pithyx/cli": "1.0.0-rc.9",
+    "@pithyx/cli": "2.0.0",
     "@types/node": "^24.13.6",
     "typescript": "~6.0.3",
     "vite": "^8.3.1",
