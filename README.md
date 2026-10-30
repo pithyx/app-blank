@@ -5,6 +5,10 @@ It greets the signed-in user in their language. Use it as the start of your own 
 
 Part of Pithyx by Schecher1 (https://github.com/Schecher1).
 
+When the app grows a user interface, follow the [design guidelines](https://pithyx.org/docs/developers/apps/design/)
+and build it from the components and patterns of [`@pithyx/ui`](https://pithyx.org/docs/sdk/ui/) (the showcase
+template shows each of them), so it looks and behaves like the rest of the desktop.
+
 ## Start
 
 You need Node.js 24 or newer.
@@ -16,7 +20,7 @@ npm test        # build, pithyx validate and the unit tests
 npm run pack    # writes <id>-<version>.pithyxapp
 ```
 
-Install the `.pithyxapp` on your box in the Store (gear, Install from file).
+Install the `.pithyxapp` on your box in the Store (**Installed**, **Install from file**).
 
 ## Make it yours
 
@@ -43,7 +47,7 @@ There are two ways:
   catalog's CI builds the app from the merged commit and publishes it; boxes install it from the Store and get its
   updates. You never publish a package or an image yourself.
 - **A sideload**, for your own box and for testing: `npm run pack` writes the `.pithyxapp`; install it in the Store
-  (gear, Install from file). A sideload is marked unverified and gets no updates unless a catalog has the same id.
+  (**Installed**, **Install from file**). A sideload is marked unverified and gets no updates unless a catalog has the same id.
 
 ## License
 
